@@ -1,0 +1,45 @@
+.input-wrapper {
+    width: 38%;
+    height: 3rem;
+    border: none;
+    border-radius: 10px;
+    padding: 0 15px;
+    box-shadow: 0px 0px 8px #5c49c9;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+  }
+  
+  input {
+    background-color: transparent;
+    border: blue;
+    height: 100%;
+    font-size: 1.25rem;
+    width: 100%;
+    margin-left: 5px;
+    justify-content: center;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  #search-icon {
+    color: rgb(110, 132, 233);
+  }
+
+  .country{
+    display: flex;
+    font-weight:bold;
+    font-size:xx-large;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+  }
+  
